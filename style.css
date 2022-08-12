@@ -1,0 +1,233 @@
+/* STYLE SECTIONING TAGS */
+* { /* Reset the space of the webpage */
+   margin: 0px;
+   padding: 0px;
+}
+
+body {
+ background-color: #FFFFFC; 
+  text-align:center;
+}
+
+/* STYLE TEXT */
+/*headers*/
+h1 {
+  color: #FFFFFC;
+  background-color:#000000;
+  padding: 25px;
+  font-family: 'BhuTuka Expanded One', cursive;
+  font-size: 52px;
+  margin-top:0px;
+}
+
+/*text*/
+p{
+  font-family: 'Inconsolata', monospace;
+  font-size:24px;
+  margin-left: 75px;
+  margin-right: 75px;
+}
+
+/*mission statement*/
+h2{
+  font-family: "Inconsolata", monospace;
+  font-size:48px;
+  margin-left: 75px;
+  margin-right: 75px;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+
+/*background info*/
+#background{
+  margin-bottom: 25px;
+}
+
+/*key feature responsive columns*/
+.flex-box{
+  flex basis: 100%;
+  margin: 20px;
+  flex: 1;
+}
+
+.flex-container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: no wrap;
+}
+
+.block{
+  background-color:#FF3F00;
+  padding: 25px;
+  margin:10px;
+}
+
+#two{
+  padding-bottom: 50px;
+}
+
+#three{
+  padding-bottom: 75px;
+}
+
+/*key feature breakpoints*/
+@media screen and (max-width: 850px){
+  .flex-container{
+    flex-wrap: wrap;
+  }
+
+  h1{
+    font-size: 32px;
+  }
+
+  nav{
+    line-height: 42px;
+    font-size: 8px;
+  }
+
+  h2{
+    font-size: 28px;
+    margin-left:10px;
+    margin-right:10px;
+  }
+
+  iframe{
+    width: 90%;
+  }
+
+  /*figure this out*/
+  .feature{
+    width: 90%;
+    margin-left: 0px;
+    margin-right: 0px;
+  }
+
+  p{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+
+  .top{
+    margin-top: 65px;
+  }
+  }
+
+
+/*article*/
+.space{
+  padding: 25px;
+}
+
+/*takeaway list*/
+.number{
+  float:left;
+  font-size: 102px;
+  background-color: #FF7F11;
+  font-family: "BhuTuka Expanded One", cursive;
+  margin-top: 0px;
+}
+
+#one{
+}
+
+.step{
+  margin-top: 7.5%;
+  margin-bottom:7.5%;
+  background-color:#FF3F00;
+  padding-top: 26px;
+  padding-bottom: 26px;
+}
+
+/*links*/
+a{
+  font-family: "Inconsolata", monospace;
+  font-size:24px;
+  color: #000000;
+  background-color:#FF7F11;
+}
+
+a:hover{
+  background-color: #BEB7A4;
+}
+
+/*bottom*/
+.bottom{
+  margin-bottom: 50px;
+}
+
+/*key feature fact generator*/
+.feature{
+  background-color:#FF3F00;
+  padding: 15px;
+  margins: 25px;
+  margin-left: 200px;
+  margin-right:200px;
+}
+
+/* STYLE IMAGES */
+.top{
+  width:100%;
+  margins:0px;
+}
+
+.information{
+  max-height:50%;
+  max-width:50%;
+  border-radius: 50%;
+}
+
+iframe{
+  margin:15px;
+}
+/* STYLE NAV BAR */
+nav{
+  font-family: "Inconsolata", monospace;
+  position:fixed; 
+  width: 100%;
+}
+ul{
+  list-style-type: none;
+  background-color: #000000;
+  overflow: hidden;
+  padding: 10px;
+  margin-bottom: 25px;
+}
+  
+  li{
+    display: inline;
+  }
+
+li a{
+  text-decoration: none;
+  color: #FFFFFC;
+  font-size: 24px;
+  padding: 8px;
+  background-color:#000000;
+}
+
+li a:hover{
+  background-color: #BEB7A4;
+  color: #000000;
+}
+
+/* STYLE BUTTONS */
+button{
+  background-color:#000000;
+  color: #FFFFFC;
+  font-family: "Inconsolata", monospace;
+  font-size: 24px;
+  padding: 25px;
+}
+
+button:hover{
+  background-color:#BEB7A4;
+  color:#000000;
+}
+
+h3{
+  background-color:#FF3F00;
+  margin-left:200px;
+  margin-right:200px;
+}
+
+/* ADD MORE! */
